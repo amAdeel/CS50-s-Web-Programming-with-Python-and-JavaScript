@@ -5,6 +5,8 @@ numbers=[1,2,3,4,5,6,7,8,9,10]
 
 ## key concept 
 
+
+###Using Indexing 
 #get a number from the list by the help of index number it's start from 0 ...
 print(numbers[3])
 
@@ -12,19 +14,19 @@ print(numbers[3])
 #It's changeable code 
 temp_numbers=numbers[:]#make a copy a list , other way n1=n.copy() , n1=list(n)
 print(temp_numbers)
-temp_numbers[1:3]=25,26,27# it's target and make slice of starting:1 and ending:2 and then replace this number
+temp_numbers[1:3]=25,26,27# it's target and make slice of starting:1 index and ending: before the 3rd index number and then replace this number , by this three new number added in our list .
 print(temp_numbers)
 
 ## slicing
 
-# hows slicing works in a list methode list[start:end:step] what its mean now we move further when start showing where the start a slice , 2nd end where the end the slice and 3rd slicise how many element skip after each element 
+# hows slicing works in a list methode list[start:end:step] what its mean now we move further when start showing where the start a slice , 2nd shows where the end the slice and 3rd shows slicise how many element skip after each element 
 
 #list [start] what will me printed 
 print(f"List start[2:] : {numbers[2:]}")
 #it's shows list start after the index number 2 
 
 #list[end]
-print(f"List-end[:2] : {numbers[:2]}")
+print(f"List-end[:2] : {numbers[:2]}") # mean List end before 2nd index
 
 
 #list[start:end:step] all together now check what happend now 
