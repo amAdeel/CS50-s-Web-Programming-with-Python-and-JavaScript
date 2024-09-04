@@ -5,12 +5,14 @@ for i in range(5):
 
 
 #example :
-number=list(range(1,10,2))
+number=list(range(1,10,2))# it's mean starting from 1 , ending before the 10 and step taken 2 . 1 step is default step 
 print(number)#it's make number of list 
 
 #example
 # number1=[range(1,5)]
 # print(number1)
 #by applying above line it's only shows range(1,5)we run range proparly in a loop 
+
+# Squring a number 
 number1=[i**2 for i in range(1,11)]
 print(number1)
